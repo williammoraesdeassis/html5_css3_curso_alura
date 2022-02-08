@@ -261,7 +261,7 @@ form label, form legend{
 }
 table{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 60px 0px; 
+    margin: 60px auto; 
 }
 thead{
     background: #575d63;
@@ -405,7 +405,7 @@ th, td{
     }
     table{
         font-family: Arial, Helvetica, sans-serif;
-        margin: 3em 0px; 
+        margin: 0 auto; 
     }
     thead{
         background: #575d63;
@@ -416,6 +416,6 @@ th, td{
     th, td{
         border: #000000 2px solid;
         font-size: 1em;
-        padding: 1em 2em;
+        padding: 1em 3em;
     }
 }
