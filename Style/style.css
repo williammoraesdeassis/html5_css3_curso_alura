@@ -1,0 +1,425 @@
+body{
+    color:#442e14;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: #581e20;
+    padding: 15px;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    height: 120px;
+}
+.caixa{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    display:inline-block;
+    position: absolute;
+    top: 50px;
+    right: 3px;
+}
+nav li{
+    text-align: right;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight:200;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #eccc3e;
+}
+
+footer{
+    
+    text-align: center;
+    background: url("/Images/bg.jpg");
+    padding: 40px 0px;
+}
+.logofooter{
+    height: 150px;
+}
+.copyright{
+    font-style: italic;
+    color: antiquewhite;
+    margin: 20px 0 0 0;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #525252; 
+    border-radius: 1px;
+    background: #32363a;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4f5357; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #575d63; 
+  }
+
+  /*Pagina principal*/
+  main{
+      background: #FFFFFF;
+  }
+  .banner{
+      width:100%;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+  }
+  .principal{
+      width: 85%;
+      margin: 0 auto;
+  }
+  .texto-principal{
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      padding: 1em;
+  }
+  
+  .principal p{
+      font-size: 1.3em;
+      line-height: 1.8em;
+  }
+  .nossamissao{
+    font-style: italic;
+  }
+  .nossamissao strong{
+      font-weight: bold;
+  }
+  .imagem-utensílios{
+      width: 115px;
+      float: left;
+      margin:  0 1em  0 0;
+      border-radius: 0.5em;
+      transition: 0.5s;
+  }
+  .imagem-utensílios:hover{
+      box-shadow: #0000005b 2px 2px 5px 5px;
+  }
+  .mapa p{
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: 200;
+      margin: 0 0 1.5em 0;
+  }
+  .mapa{
+      width: 1000px;
+      margin: 0 auto;
+      padding: 3em 0 0 0;
+  }
+
+  .beneficios{
+      width: 1000px;
+      margin: 0 auto;
+      padding: 2em 0 ;
+  }
+  .beneficios ul{
+      display: inline-block;
+      width: 49%;
+      vertical-align: top;
+  }
+  .list{
+      line-height: 1.6em;
+      font-size: 1.6em;
+  }
+  .list ::before{
+      content: "✂ ";
+  }
+  .imagem-beneficios{
+      display: inline-block;
+      width: 48%;
+      border-radius: 10px;
+      transition: 0.5s;
+  }
+  .imagem-beneficios:hover{
+      opacity: 0.8;
+  }
+
+  .video{
+      width: 800px;
+      margin: 0 auto;
+      padding: 3em 0 ;
+      border-radius: 10px; 
+  }
+  .video iframe{
+      border-radius: 10px;
+  }
+/*Serviços*/
+
+.produtos{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1em 0 1em 2em;
+}
+.produtos li{
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 20px ;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: #b8a035;
+}
+
+.produtos li:hover h2{
+    font-size: 31px;
+    color:#b8a035;
+}
+
+.produtos h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.img-produtos{
+    width: 99%;
+}
+
+.produtos li:hover .produtos-preco{
+    color: #b8a035;
+}
+
+.produtos-descricao{
+    font-size: 15px;
+}
+
+.produtos-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+/*Contato*/
+.corpo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0px;
+}
+
+form label, form legend{
+    display: block;
+    margin: 0 0 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-padrão{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+.checkbox{
+    margin: 20px 0 0 0;
+}
+
+.enviar{
+    background: #17A63D;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.enviar:hover{
+    background: #257039;
+    transform: scale(1.02);
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 60px 0px; 
+}
+thead{
+    background: #575d63;
+}
+thead th{
+    color: #ffffff;
+}
+th, td{
+    border: #000000 2px solid;
+    font-size: 20px;
+    padding: 8px 100px;
+}
+
+@media screen and (max-width: 1020px) {
+    .caixa, .video, .mapa, .beneficios, .principal, .corpo{ 
+        width: auto;
+        margin: 0 auto;
+        padding: 1em;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    .logo{
+        display: inline-block;
+        position: relative;
+        height: 120px;
+    }
+    nav{
+        display: block;
+        position: static;
+    }
+    nav ul{
+        margin-left: 1em;
+        text-align: center;
+        padding: 0.2em 0 0 0;
+    }
+    nav li{
+        margin: 1em;
+        font-size: 10px;
+    }
+    .beneficios ul{
+        width: 100%;
+        padding: 0 0 1.2em 0 ;
+    }
+    .list{
+        font-size: 1.2em;
+        width: 100%;
+    }
+    .imagem-beneficios{
+        width:100%;
+        display: inline;
+    }
+    .video iframe{
+        width: 100%;
+
+    }
+    .produtos{
+        width: auto;
+        margin: 0 auto;
+        padding: 1em 0 1em 2em;
+    }
+    .produtos li{
+        height: 20em;
+        text-align: center;
+        width: 80%;
+        vertical-align: top;
+        margin: 1em;
+        padding: 3em;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+    .produtos li:hover{
+        border-color: #b8a035;
+    }
+    
+    .produtos li:hover h2{
+        font-size: 2.1em;
+        color:#b8a035;
+    }
+    
+    .produtos h2{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .img-produtos{
+        width: 40%;
+    }
+    
+    .produtos li:hover .produtos-preco{
+        color: #b8a035;
+    }
+    
+    .produtos-descricao{
+        font-size: 1em;
+    }
+    
+    .produtos-preco{
+        font-size: 1em;
+        font-weight: bold;
+        margin: 1em 0 0;
+    }
+    /*Contato*/
+    form{
+        margin: 1em 1em;
+    }
+
+    form label, form legend{
+        display: block;
+        margin: 0 0 0.2em 0;
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .input-padrão{
+        display: block;
+        margin: 0 0 2em;
+        padding: 1em;
+        width: 90%;
+        border-radius: 5px;
+    }
+    .checkbox{
+        margin: 2em 0 0 0;
+    }
+
+    .enviar{
+        margin: 0 auto;
+        background: #17A63D;
+        color: #ffffff;
+        border: none;
+        font-size: 0.8em;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 1.2em;
+        width: 100%;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .enviar:hover{
+        background: #257039;
+        transform: scale(1.02);
+    }
+    table{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 3em 0px; 
+    }
+    thead{
+        background: #575d63;
+    }
+    thead th{
+        color: #ffffff;
+    }
+    th, td{
+        border: #000000 2px solid;
+        font-size: 1em;
+        padding: 1em 2em;
+    }
+}
